@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <!-- <link rel="stylesheet" href="prediction.css"> -->
+    <link rel="stylesheet" href="{{url_for('static',filename='style/prediction.css')}}">
+  </head>
+  <body>
+    <div class="container">
+      <h3>According to your soil neutrients</h3>
+      <h3> You Should Grow -> </h3>
+      <br>
+      <br>
+      <h2>{{prediction}}</h2>
+      <a href="{{ml_link}}">Here is the crop info</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+.container1 {
+    height: 600px;
+    background-image: url(pictures/barley-field-1684052.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+}
+
+   
+.container1 h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700px;
+    margin-top: 0px;
+}
+.container1 h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500px;
+  padding-top: 70px;
+  margin-bottom: 20;
+}
+
+  input[type="submit"] {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 170px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  .container2{
+    height: 400px;
+    background-color: rgb(240, 225, 127);
+  }
+  .container2 p{
+    font-size: 25px;
+    line-height: 24px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Lato", sans;
+    position: relative;
+    top: 50px;
+  }
+  .container2 h1{
+    font-size: 50px;
+    font-weight: 500px;
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    top: 50px;
+    color: #473421;
+  }
+  .learn{
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    position: relative;
+    top: 100px;
+    left: 460px;
+    background-color: #4f351a;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+  }
